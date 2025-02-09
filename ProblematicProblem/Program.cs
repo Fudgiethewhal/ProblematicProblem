@@ -91,7 +91,7 @@ namespace ProblematicProblem
                 Console.WriteLine();
                 
                 int randomNumber = rng.Next(activities.Count);
-                string randomActivity = activities[7];
+                string randomActivity = activities[randomNumber];
                 
                 if (userAge < 21 && randomActivity == "Wine Tasting")
                 {
